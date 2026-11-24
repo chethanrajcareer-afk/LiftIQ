@@ -1,0 +1,25 @@
+# Python environments
+.venv/
+.venv-*/
+venv/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local data and generated reports
+*.db
+*.sqlite3
+reports/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
